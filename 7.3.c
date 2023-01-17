@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main() {
+int sevenPointThree() {
    int a;
    int *aPtr;
 
