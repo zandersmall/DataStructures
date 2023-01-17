@@ -2,7 +2,7 @@
 
 void cubeByReference ( int *nPtr );
 
-int main() {
+int sevenpointfour() {
    int number = 5;
   printf ( "The original value of number is %d", number );
 
