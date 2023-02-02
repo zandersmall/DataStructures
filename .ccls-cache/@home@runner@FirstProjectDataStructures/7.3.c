@@ -1,19 +1,11 @@
 #include <stdio.h>
+#include <stdlib.h>
+
 int main() {
-   int a;
-   int *aPtr;
+int *iPtr;
+float f = 2.0;
 
-   a = 88;
-   aPtr = &a;
-
-   printf("The address of a is %p"
-          "\nThe value of aPtr is %p", &a, &aPtr );
+printf("The hex representation of %f is: %x\n", f, *((int *)&f));
   
-   printf( "\n\n The value of a is %d"
-          "\nThe value of *aPtr is %d", a, *aPtr );
-    printf( "\n\nShowing that * and & are complements of "
-           "each other \n&*aPtr = %p"
-           "\n*&aPtr = %p\n", &*aPtr, *&aPtr );
-           
-    return 0;
+return 0;
 }
